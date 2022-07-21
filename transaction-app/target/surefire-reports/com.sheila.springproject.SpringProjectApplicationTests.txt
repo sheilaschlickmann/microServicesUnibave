@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.sheila.springproject.SpringProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.56 s <<< FAILURE! - in com.sheila.springproject.SpringProjectApplicationTests
+contextLoads  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: A tentativa de conexão falhou.
+-------------------------------------------------------------------------
+SQL State  : 08001
+Error Code : 0
+Message    : A tentativa de conexão falhou.
+
+Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: 
+Unable to obtain connection from database: A tentativa de conexão falhou.
+-------------------------------------------------------------------------
+SQL State  : 08001
+Error Code : 0
+Message    : A tentativa de conexão falhou.
+
+Caused by: org.postgresql.util.PSQLException: A tentativa de conexão falhou.
+Caused by: java.net.UnknownHostException: postgres
+

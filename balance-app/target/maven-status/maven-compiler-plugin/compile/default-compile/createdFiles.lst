@@ -1,0 +1,11 @@
+com\sheila\balance\BalanceController.class
+com\sheila\balance\DescriptionType.class
+com\sheila\balance\BalanceListener.class
+com\sheila\balance\config\RabbitMQConfig.class
+com\sheila\balance\dto\TransactionModel.class
+com\sheila\balance\dto\BalanceDto.class
+com\sheila\balance\dto\BalanceDto$TransactionDto.class
+com\sheila\balance\BalanceAppApplication.class
+com\sheila\balance\dto\Balances.class
+com\sheila\balance\Transaction.class
+com\sheila\balance\dto\BalanceDto$DescriptionType.class
