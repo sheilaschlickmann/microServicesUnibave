@@ -1,4 +1,5 @@
 Projeto de transações bancárias
+
 Projeto dividido em 3 microserviços:
 ClientAPI: Esse microserviço cadastra um cliente e envia os dados para uma fila do RabbitMQ.
 Desenvolvido em .NET, para sua execução é necessário compilar o projeto .dotnet e instalar os componentes .net SDK e .net RUNTIME.
